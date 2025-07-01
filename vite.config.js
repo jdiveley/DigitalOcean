@@ -6,6 +6,7 @@ export default defineConfig({
   plugins: [react()],
   base: "/React_Vite_CICD_Github/",
   server: {
+    allowedHosts: 'all',
     open: true,
     port: 8080
   },

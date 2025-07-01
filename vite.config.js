@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   base: "/React_Vite_CICD_Github/",
   server: {
-    allowedHosts: 'all',
+    allowedHosts: 'plankton-app-g3ztv.ondigitalocean.app',
     open: true,
     port: 8080
   },
